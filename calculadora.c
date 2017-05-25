@@ -10,11 +10,19 @@ int subtrai(int x, int y){
 	return x-y;
 }
 int multiplica(int x, int y){
+<<<<<<< HEAD
 	//Alteração feita na branch fMultiplica
 	return x*y;
 }
 int divide(int x, int y){
 	//Alteração feita na branch fDivide
+=======
+	//Alteração feita na branch fMultipicação
+	return x*y;
+}
+int divide(int x, int y){
+	//Alteração feita na branch fDiv
+>>>>>>> fDiv
 	return x/y;
 }
 
