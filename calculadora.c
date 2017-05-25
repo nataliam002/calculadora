@@ -10,10 +10,13 @@ int subtrai(int x, int y){
 	return x-y;
 }
 int multiplica(int x, int y){
-	//Alteração feita na branch fSub
+	//Alteração feita na branch fMultipicação
 	return x*y;
 }
-int divide(){}
+int divide(int x, int y){
+	//Alteração feita na branch fDiv
+	return x/y;
+}
 
 int main(){
 
@@ -21,6 +24,7 @@ int main(){
 	printf("Soma: %d\n", soma(2,2));
 	printf("Subtração: %d\n", subtrai(2,2));
 	printf("Multiplicação: %d\n", multiplica(2,2));
+	printf("Divisão: %d\n", divide(2,2));
 	
 
 }
